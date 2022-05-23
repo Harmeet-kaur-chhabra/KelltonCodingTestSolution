@@ -8,13 +8,13 @@ class BMI
 	  float w,h,t;
 	  Scanner sc=new Scanner(System.in);
 	  {
-		  System.out.println("enetr first name");
+		  System.out.println("enter first name");
 		  a=sc.nextLine();
-		  System.out.println("enetr last name");
+		  System.out.println("enter last name");
 	      b=sc.nextLine();
-	      System.out.println("enetr weight name");
+	      System.out.println("enter weight name");
 	      w=sc.nextFloat();
-	      System.out.println("enetr height name");
+	      System.out.println("enter height name");
 	      h=sc.nextFloat();
 	  }
 	  t=w/(h*h);
